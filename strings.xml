@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GeofenceApp</string>
+    <string name="nbmap_global_base_url">http://api.nextbillion.io</string>
+</resources>

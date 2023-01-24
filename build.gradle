@@ -1,0 +1,22 @@
+// TOP-LEVEL
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+    }
+//    dependencies {
+//        classpath 'com.android.appli  cation:gradle:7.3.1'
+    }
+//}
+
+plugins {
+    id 'com.android.application' version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
