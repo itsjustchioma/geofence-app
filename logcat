@@ -1,0 +1,86 @@
+2023-01-24 09:04:16.104 29566-29566 studio.deploy           install_server-8dee6a62              E  Could not remove dir '/data/data/com.example.geofenceapp/code_cache/.ll/': No such file or directory
+2023-01-24 09:04:18.631 29581-29581 ple.geofenceapp         com.example.geofenceapp              I  Late-enabling -Xcheck:jni
+2023-01-24 09:04:18.995 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Suspending all threads took: 22.588ms
+2023-01-24 09:04:19.089 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Unexpected CPU variant for x86: x86_64.
+                                                                                                    Known variants: atom, sandybridge, silvermont, kabylake, default
+2023-01-24 09:04:19.681 29581-29581 studio.deploy           com.example.geofenceapp              V  Startup agent attached to VM
+2023-01-24 09:04:19.689 29581-29581 studio.deploy           com.example.geofenceapp              V  No existing instrumentation found. Loading instrumentation from instruments-b5380c1f.jar
+2023-01-24 09:04:19.646 29581-29581 re-initialized>         com.example.geofenceapp              W  type=1400 audit(0.0:337): avc: granted { execute } for path="/data/data/com.example.geofenceapp/code_cache/startup_agents/8dee6a62-agent.so" dev="dm-33" ino=139909 scontext=u:r:untrusted_app:s0:c159,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c159,c256,c512,c768 tclass=file app=com.example.geofenceapp
+2023-01-24 09:04:19.762 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  DexFile /data/data/com.example.geofenceapp/code_cache/.studio/instruments-b5380c1f.jar is in boot class path but is not in a known location
+2023-01-24 09:04:19.774 29581-29581 studio.deploy           com.example.geofenceapp              V  Applying transforms with cached classes
+2023-01-24 09:04:19.976 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled.
+2023-01-24 09:04:19.976 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled.
+2023-01-24 09:04:19.994 29581-29581 Compatibil...geReporter com.example.geofenceapp              D  Compat change id reported: 171979766; UID 10159; state: ENABLED
+2023-01-24 09:04:20.265 29581-29581 ziparchive              com.example.geofenceapp              W  Unable to open '/data/app/~~Br22prWds5c3llAtoqjLFA==/com.example.geofenceapp-Pl6_X_DC7P6O6UKT7GU6Ew==/base.dm': No such file or directory
+2023-01-24 09:04:20.265 29581-29581 ziparchive              com.example.geofenceapp              W  Unable to open '/data/app/~~Br22prWds5c3llAtoqjLFA==/com.example.geofenceapp-Pl6_X_DC7P6O6UKT7GU6Ew==/base.dm': No such file or directory
+2023-01-24 09:04:21.471 29581-29581 nativeloader            com.example.geofenceapp              D  Configuring classloader-namespace for other apk /data/app/~~Br22prWds5c3llAtoqjLFA==/com.example.geofenceapp-Pl6_X_DC7P6O6UKT7GU6Ew==/base.apk. target_sdk_version=32, uses_libraries=, library_path=/data/app/~~Br22prWds5c3llAtoqjLFA==/com.example.geofenceapp-Pl6_X_DC7P6O6UKT7GU6Ew==/lib/x86_64:/data/app/~~Br22prWds5c3llAtoqjLFA==/com.example.geofenceapp-Pl6_X_DC7P6O6UKT7GU6Ew==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.geofenceapp
+2023-01-24 09:04:21.641 29581-29581 GraphicsEnvironment     com.example.geofenceapp              V  ANGLE Developer option for 'com.example.geofenceapp' set to: 'default'
+2023-01-24 09:04:21.642 29581-29581 GraphicsEnvironment     com.example.geofenceapp              V  ANGLE GameManagerService for com.example.geofenceapp: false
+2023-01-24 09:04:21.642 29581-29581 GraphicsEnvironment     com.example.geofenceapp              V  Neither updatable production driver nor prerelease driver is supported.
+2023-01-24 09:04:21.705 29581-29581 NetworkSecurityConfig   com.example.geofenceapp              D  No Network Security Config specified, using platform default
+2023-01-24 09:04:21.716 29581-29581 NetworkSecurityConfig   com.example.geofenceapp              D  No Network Security Config specified, using platform default
+2023-01-24 09:04:22.158 29581-29608 libEGL                  com.example.geofenceapp              D  loaded /vendor/lib64/egl/libEGL_emulation.so
+2023-01-24 09:04:22.268 29581-29608 libEGL                  com.example.geofenceapp              D  loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+2023-01-24 09:04:22.376 29581-29608 libEGL                  com.example.geofenceapp              D  loaded /vendor/lib64/egl/libGLESv2_emulation.so
+2023-01-24 09:04:23.520 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Verification of boolean androidx.appcompat.app.AppCompatDelegateImpl.initializePanelContent(androidx.appcompat.app.AppCompatDelegateImpl$PanelFeatureState) took 120.634ms (373.03 bytecodes/s) (2688B approximate peak alloc)
+2023-01-24 09:04:23.779 29581-29581 AppCompatDelegate       com.example.geofenceapp              D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2023-01-24 09:04:25.207 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+2023-01-24 09:04:25.207 29581-29581 ple.geofenceapp         com.example.geofenceapp              W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2023-01-24 09:04:25.269 29581-29581 Compatibil...geReporter com.example.geofenceapp              D  Compat change id reported: 210923482; UID 10159; state: DISABLED
+2023-01-24 09:04:25.270 29581-29581 Compatibil...geReporter com.example.geofenceapp              D  Compat change id reported: 37756858; UID 10159; state: ENABLED
+2023-01-24 09:04:26.234 29581-29581 AndroidRuntime          com.example.geofenceapp              D  Shutting down VM
+2023-01-24 09:04:26.260 29581-29581 AndroidRuntime          com.example.geofenceapp              E  FATAL EXCEPTION: main
+                                                                                                    Process: com.example.geofenceapp, PID: 29581
+                                                                                                    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.geofenceapp/com.example.geofenceapp.MainActivity}: android.view.InflateException: Binary XML file line #15 in com.example.geofenceapp:layout/activity_main: Binary XML file line #15 in com.example.geofenceapp:layout/activity_main: Error inflating class ai.nextbillion.maps.core.MapView
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3645)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3782)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:101)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2307)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7872)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+                                                                                                    Caused by: android.view.InflateException: Binary XML file line #15 in com.example.geofenceapp:layout/activity_main: Binary XML file line #15 in com.example.geofenceapp:layout/activity_main: Error inflating class ai.nextbillion.maps.core.MapView
+                                                                                                    Caused by: android.view.InflateException: Binary XML file line #15 in com.example.geofenceapp:layout/activity_main: Error inflating class ai.nextbillion.maps.core.MapView
+                                                                                                    Caused by: java.lang.reflect.InvocationTargetException
+                                                                                                    	at java.lang.reflect.Constructor.newInstance0(Native Method)
+                                                                                                    	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+                                                                                                    	at android.view.LayoutInflater.createView(LayoutInflater.java:858)
+                                                                                                    	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1010)
+                                                                                                    	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:965)
+                                                                                                    	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1127)
+                                                                                                    	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1088)
+                                                                                                    	at android.view.LayoutInflater.inflate(LayoutInflater.java:686)
+                                                                                                    	at android.view.LayoutInflater.inflate(LayoutInflater.java:538)
+                                                                                                    	at android.view.LayoutInflater.inflate(LayoutInflater.java:485)
+                                                                                                    	at androidx.appcompat.app.AppCompatDelegateImpl.setContentView(AppCompatDelegateImpl.java:775)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.setContentView(AppCompatActivity.java:197)
+                                                                                                    	at com.example.geofenceapp.MainActivity.onCreate(MainActivity.java:19)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:8305)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:8284)
+                                                                                                    	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1417)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3626)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3782)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:101)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2307)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7872)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+                                                                                                    Caused by: java.lang.ClassCastException: com.example.geofenceapp.MainActivity cannot be cast to android.app.Application
+2023-01-24 09:04:26.264 29581-29581 AndroidRuntime          com.example.geofenceapp              E  	at ai.nextbillion.maps.utils.APIUtils.getBaseUri(APIUtils.java:29)
+                                                                                                    	at ai.nextbillion.maps.core.NextbillionMapOptions.createFromAttributes(NextbillionMapOptions.java:194)
+                                                                                                    	at ai.nextbillion.maps.core.NextbillionMapOptions.createFromAttributes(NextbillionMapOptions.java:178)
+                                                                                                    	at ai.nextbillion.maps.core.MapView.<init>(MapView.java:110)
+                                                                                                    	... 29 more
+2023-01-24 09:04:26.370 29581-29581 Process                 com.example.geofenceapp              I  Sending signal. PID: 29581 SIG: 9
